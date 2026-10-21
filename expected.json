@@ -1,0 +1,907 @@
+{
+ "cases": [
+  {
+   "fn": "force",
+   "args": [
+    "100",
+    "2",
+    "300"
+   ],
+   "expect": "The punch of 100 mm perimeter through 2 mm of stock at 300 N/mm2 asks for 60000 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "50",
+    "20",
+    "2",
+    "300"
+   ],
+   "expect": "The rectangular punch of 50 mm by 20 mm through 2 mm of stock at 300 N/mm2 runs a 140 mm perimeter and asks for 84000 N."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "60000"
+   ],
+   "expect": "The force of 60000 N matches the weight of 6116.21 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "60000",
+    "2"
+   ],
+   "expect": "A stroke of 60000 N through 2 mm of stock spends 120 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "6027.4",
+    "7.23",
+    "745.88"
+   ],
+   "expect": "The punch of 6027.4 mm perimeter through 7.23 mm of stock at 745.88 N/mm2 asks for 32504035 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "2463.29",
+    "27.31",
+    "190.04"
+   ],
+   "expect": "The punch of 2463.29 mm perimeter through 27.31 mm of stock at 190.04 N/mm2 asks for 12784456 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "7497.07",
+    "17.36",
+    "648.02"
+   ],
+   "expect": "The punch of 7497.07 mm perimeter through 17.36 mm of stock at 648.02 N/mm2 asks for 84339243 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "2475.79",
+    "49.45",
+    "425.59"
+   ],
+   "expect": "The punch of 2475.79 mm perimeter through 49.45 mm of stock at 425.59 N/mm2 asks for 52104054 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "5847.97",
+    "59.18",
+    "1923.94"
+   ],
+   "expect": "The punch of 5847.97 mm perimeter through 59.18 mm of stock at 1923.94 N/mm2 asks for 665842667 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "2178.45",
+    "26.46",
+    "1354.19"
+   ],
+   "expect": "The punch of 2178.45 mm perimeter through 26.46 mm of stock at 1354.19 N/mm2 asks for 78057932 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "8992.69",
+    "23.88",
+    "1792.35"
+   ],
+   "expect": "The punch of 8992.69 mm perimeter through 23.88 mm of stock at 1792.35 N/mm2 asks for 384898984 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "3084.84",
+    "50.29",
+    "1767.93"
+   ],
+   "expect": "The punch of 3084.84 mm perimeter through 50.29 mm of stock at 1767.93 N/mm2 asks for 274270656 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "5631.88",
+    "87.61",
+    "1380.39"
+   ],
+   "expect": "The punch of 5631.88 mm perimeter through 87.61 mm of stock at 1380.39 N/mm2 asks for 681096859 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "9116.84",
+    "4.13",
+    "306.22"
+   ],
+   "expect": "The punch of 9116.84 mm perimeter through 4.13 mm of stock at 306.22 N/mm2 asks for 11529964 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "2500.38",
+    "10.29",
+    "341.76"
+   ],
+   "expect": "The punch of 2500.38 mm perimeter through 10.29 mm of stock at 341.76 N/mm2 asks for 8793112 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "8355.6",
+    "73.98",
+    "1866.65"
+   ],
+   "expect": "The punch of 8355.6 mm perimeter through 73.98 mm of stock at 1866.65 N/mm2 asks for 1153864635 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "5154.74",
+    "75.08",
+    "1012.03"
+   ],
+   "expect": "The punch of 5154.74 mm perimeter through 75.08 mm of stock at 1012.03 N/mm2 asks for 391673704 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "8619.58",
+    "82.06",
+    "49.89"
+   ],
+   "expect": "The punch of 8619.58 mm perimeter through 82.06 mm of stock at 49.89 N/mm2 asks for 35288331 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "3119.14",
+    "8.25",
+    "900.19"
+   ],
+   "expect": "The punch of 3119.14 mm perimeter through 8.25 mm of stock at 900.19 N/mm2 asks for 23164504 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "3820.78",
+    "88.9",
+    "16.59"
+   ],
+   "expect": "The punch of 3820.78 mm perimeter through 88.9 mm of stock at 16.59 N/mm2 asks for 5635081 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "3746.14",
+    "19.58",
+    "708.34"
+   ],
+   "expect": "The punch of 3746.14 mm perimeter through 19.58 mm of stock at 708.34 N/mm2 asks for 51956329 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "7924.99",
+    "61.97",
+    "973.98"
+   ],
+   "expect": "The punch of 7924.99 mm perimeter through 61.97 mm of stock at 973.98 N/mm2 asks for 478332906 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "7206.29",
+    "98.04",
+    "1631.04"
+   ],
+   "expect": "The punch of 7206.29 mm perimeter through 98.04 mm of stock at 1631.04 N/mm2 asks for 1152337380 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "9920.2",
+    "23.65",
+    "651.55"
+   ],
+   "expect": "The punch of 9920.2 mm perimeter through 23.65 mm of stock at 651.55 N/mm2 asks for 152861924 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "7354.89",
+    "46.82",
+    "1308.81"
+   ],
+   "expect": "The punch of 7354.89 mm perimeter through 46.82 mm of stock at 1308.81 N/mm2 asks for 450696511 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "7257.3",
+    "3.63",
+    "1047.17"
+   ],
+   "expect": "The punch of 7257.3 mm perimeter through 3.63 mm of stock at 1047.17 N/mm2 asks for 27586645 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "7784.46",
+    "82.28",
+    "396.83"
+   ],
+   "expect": "The punch of 7784.46 mm perimeter through 82.28 mm of stock at 396.83 N/mm2 asks for 254171746 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "5388.89",
+    "15.08",
+    "1016.56"
+   ],
+   "expect": "The punch of 5388.89 mm perimeter through 15.08 mm of stock at 1016.56 N/mm2 asks for 82610201 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "force",
+   "args": [
+    "5934.5",
+    "8.04",
+    "1083.84"
+   ],
+   "expect": "The punch of 5934.5 mm perimeter through 8.04 mm of stock at 1083.84 N/mm2 asks for 51713670 N by the perimeter-times-thickness-times-strength rule."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "2394.37",
+    "8902.77",
+    "61.64",
+    "821.24"
+   ],
+   "expect": "The rectangular punch of 2394.37 mm by 8902.77 mm through 61.64 mm of stock at 821.24 N/mm2 runs a 22594.28 mm perimeter and asks for 1143750326 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "3296.49",
+    "621.93",
+    "77.99",
+    "159.93"
+   ],
+   "expect": "The rectangular punch of 3296.49 mm by 621.93 mm through 77.99 mm of stock at 159.93 N/mm2 runs a 7836.84 mm perimeter and asks for 97748441 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "3928.63",
+    "9752.17",
+    "54.29",
+    "264.46"
+   ],
+   "expect": "The rectangular punch of 3928.63 mm by 9752.17 mm through 54.29 mm of stock at 264.46 N/mm2 runs a 27361.6 mm perimeter and asks for 392845086 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "4498.3",
+    "7830.63",
+    "47.88",
+    "744.19"
+   ],
+   "expect": "The rectangular punch of 4498.3 mm by 7830.63 mm through 47.88 mm of stock at 744.19 N/mm2 runs a 24657.86 mm perimeter and asks for 878604360 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "1421.72",
+    "8711.57",
+    "50.35",
+    "1971.39"
+   ],
+   "expect": "The rectangular punch of 1421.72 mm by 8711.57 mm through 50.35 mm of stock at 1971.39 N/mm2 runs a 20266.58 mm perimeter and asks for 2011650324 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "5462.69",
+    "5011.3",
+    "83.48",
+    "1736.99"
+   ],
+   "expect": "The rectangular punch of 5462.69 mm by 5011.3 mm through 83.48 mm of stock at 1736.99 N/mm2 runs a 20947.98 mm perimeter and asks for 3037539325 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "4469.12",
+    "1359.02",
+    "38.06",
+    "742.13"
+   ],
+   "expect": "The rectangular punch of 4469.12 mm by 1359.02 mm through 38.06 mm of stock at 742.13 N/mm2 runs a 11656.28 mm perimeter and asks for 329237081 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "61.59",
+    "9972.59",
+    "59.93",
+    "887.66"
+   ],
+   "expect": "The rectangular punch of 61.59 mm by 9972.59 mm through 59.93 mm of stock at 887.66 N/mm2 runs a 20068.36 mm perimeter and asks for 1067585855 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "2802.38",
+    "9970.9",
+    "38.41",
+    "1322.89"
+   ],
+   "expect": "The rectangular punch of 2802.38 mm by 9970.9 mm through 38.41 mm of stock at 1322.89 N/mm2 runs a 25546.56 mm perimeter and asks for 1298077041 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "6640.13",
+    "9976.9",
+    "64.68",
+    "687.06"
+   ],
+   "expect": "The rectangular punch of 6640.13 mm by 9976.9 mm through 64.68 mm of stock at 687.06 N/mm2 runs a 33234.06 mm perimeter and asks for 1476889748 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "610.51",
+    "563.62",
+    "40.31",
+    "1471.48"
+   ],
+   "expect": "The rectangular punch of 610.51 mm by 563.62 mm through 40.31 mm of stock at 1471.48 N/mm2 runs a 2348.26 mm perimeter and asks for 139287884 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "9652.69",
+    "6157.08",
+    "98.41",
+    "672.32"
+   ],
+   "expect": "The rectangular punch of 9652.69 mm by 6157.08 mm through 98.41 mm of stock at 672.32 N/mm2 runs a 31619.54 mm perimeter and asks for 2092043979 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "5208.04",
+    "2472.47",
+    "98.98",
+    "764.22"
+   ],
+   "expect": "The rectangular punch of 5208.04 mm by 2472.47 mm through 98.98 mm of stock at 764.22 N/mm2 runs a 15361.02 mm perimeter and asks for 1161945888 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "5159.44",
+    "1487.52",
+    "71.78",
+    "1719.28"
+   ],
+   "expect": "The rectangular punch of 5159.44 mm by 1487.52 mm through 71.78 mm of stock at 1719.28 N/mm2 runs a 13293.92 mm perimeter and asks for 1640601582 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "9736.91",
+    "3050.74",
+    "80.46",
+    "362.66"
+   ],
+   "expect": "The rectangular punch of 9736.91 mm by 3050.74 mm through 80.46 mm of stock at 362.66 N/mm2 runs a 25575.3 mm perimeter and asks for 746277627 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "2863.02",
+    "698.98",
+    "75.6",
+    "320.24"
+   ],
+   "expect": "The rectangular punch of 2863.02 mm by 698.98 mm through 75.6 mm of stock at 320.24 N/mm2 runs a 7124 mm perimeter and asks for 172473066 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "8294.54",
+    "1552.88",
+    "37.94",
+    "414.72"
+   ],
+   "expect": "The rectangular punch of 8294.54 mm by 1552.88 mm through 37.94 mm of stock at 414.72 N/mm2 runs a 19694.84 mm perimeter and asks for 309888003 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "9810.81",
+    "8657.75",
+    "45.62",
+    "936.64"
+   ],
+   "expect": "The rectangular punch of 9810.81 mm by 8657.75 mm through 45.62 mm of stock at 936.64 N/mm2 runs a 36937.12 mm perimeter and asks for 1578305290 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "933.37",
+    "5562.95",
+    "85.55",
+    "1577.51"
+   ],
+   "expect": "The rectangular punch of 933.37 mm by 5562.95 mm through 85.55 mm of stock at 1577.51 N/mm2 runs a 12992.64 mm perimeter and asks for 1753434470 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "2421.08",
+    "4436.73",
+    "47.71",
+    "940.1"
+   ],
+   "expect": "The rectangular punch of 2421.08 mm by 4436.73 mm through 47.71 mm of stock at 940.1 N/mm2 runs a 13715.62 mm perimeter and asks for 615175334 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "9475.98",
+    "1086.23",
+    "52.41",
+    "173.25"
+   ],
+   "expect": "The rectangular punch of 9475.98 mm by 1086.23 mm through 52.41 mm of stock at 173.25 N/mm2 runs a 21124.42 mm perimeter and asks for 191810420 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "1933.35",
+    "2886.65",
+    "58.82",
+    "1282.67"
+   ],
+   "expect": "The rectangular punch of 1933.35 mm by 2886.65 mm through 58.82 mm of stock at 1282.67 N/mm2 runs a 9640 mm perimeter and asks for 727305700 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "1381.47",
+    "7339.94",
+    "97.32",
+    "1111.07"
+   ],
+   "expect": "The rectangular punch of 1381.47 mm by 7339.94 mm through 97.32 mm of stock at 1111.07 N/mm2 runs a 17442.82 mm perimeter and asks for 1886080482 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "1730.84",
+    "8007.86",
+    "86.31",
+    "1329.32"
+   ],
+   "expect": "The rectangular punch of 1730.84 mm by 8007.86 mm through 86.31 mm of stock at 1329.32 N/mm2 runs a 19477.4 mm perimeter and asks for 2234712400 N."
+  },
+  {
+   "fn": "rect",
+   "args": [
+    "605.42",
+    "6589.73",
+    "51.58",
+    "1503.3"
+   ],
+   "expect": "The rectangular punch of 605.42 mm by 6589.73 mm through 51.58 mm of stock at 1503.3 N/mm2 runs a 14390.3 mm perimeter and asks for 1115826942 N."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "75025334"
+   ],
+   "expect": "The force of 75025334 N matches the weight of 7647842.41 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "28341071"
+   ],
+   "expect": "The force of 28341071 N matches the weight of 2888998.06 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "20819236"
+   ],
+   "expect": "The force of 20819236 N matches the weight of 2122246.28 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "65982939"
+   ],
+   "expect": "The force of 65982939 N matches the weight of 6726089.6 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "38643211"
+   ],
+   "expect": "The force of 38643211 N matches the weight of 3939165.24 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "64384302"
+   ],
+   "expect": "The force of 64384302 N matches the weight of 6563129.66 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "32156160"
+   ],
+   "expect": "The force of 32156160 N matches the weight of 3277896.02 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "83558530"
+   ],
+   "expect": "The force of 83558530 N matches the weight of 8517689.09 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "76053125"
+   ],
+   "expect": "The force of 76053125 N matches the weight of 7752612.13 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "32593589"
+   ],
+   "expect": "The force of 32593589 N matches the weight of 3322486.14 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "13516035"
+   ],
+   "expect": "The force of 13516035 N matches the weight of 1377781.35 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "21207946"
+   ],
+   "expect": "The force of 21207946 N matches the weight of 2161870.13 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "51955943"
+   ],
+   "expect": "The force of 51955943 N matches the weight of 5296222.53 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "46768248"
+   ],
+   "expect": "The force of 46768248 N matches the weight of 4767405.5 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "64618638"
+   ],
+   "expect": "The force of 64618638 N matches the weight of 6587017.13 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "52552281"
+   ],
+   "expect": "The force of 52552281 N matches the weight of 5357011.31 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "11831547"
+   ],
+   "expect": "The force of 11831547 N matches the weight of 1206070.03 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "86300596"
+   ],
+   "expect": "The force of 86300596 N matches the weight of 8797206.52 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "76236563"
+   ],
+   "expect": "The force of 76236563 N matches the weight of 7771311.21 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "mass",
+   "args": [
+    "78106324"
+   ],
+   "expect": "The force of 78106324 N matches the weight of 7961908.66 kg under the 9.81 m/s2 figure."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "42213480",
+    "33.64"
+   ],
+   "expect": "A stroke of 42213480 N through 33.64 mm of stock spends 1420061 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "1542441",
+    "2.92"
+   ],
+   "expect": "A stroke of 1542441 N through 2.92 mm of stock spends 4504 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "97800595",
+    "77.42"
+   ],
+   "expect": "A stroke of 97800595 N through 77.42 mm of stock spends 7571722 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "36697334",
+    "26.52"
+   ],
+   "expect": "A stroke of 36697334 N through 26.52 mm of stock spends 973213 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "90365451",
+    "16.75"
+   ],
+   "expect": "A stroke of 90365451 N through 16.75 mm of stock spends 1513621 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "19785480",
+    "13.96"
+   ],
+   "expect": "A stroke of 19785480 N through 13.96 mm of stock spends 276205 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "42306627",
+    "64.8"
+   ],
+   "expect": "A stroke of 42306627 N through 64.8 mm of stock spends 2741469 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "92378417",
+    "45.11"
+   ],
+   "expect": "A stroke of 92378417 N through 45.11 mm of stock spends 4167190 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "69593177",
+    "57"
+   ],
+   "expect": "A stroke of 69593177 N through 57 mm of stock spends 3966811 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "26743588",
+    "61.33"
+   ],
+   "expect": "A stroke of 26743588 N through 61.33 mm of stock spends 1640184 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "58822833",
+    "36.48"
+   ],
+   "expect": "A stroke of 58822833 N through 36.48 mm of stock spends 2145857 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "37202420",
+    "60.47"
+   ],
+   "expect": "A stroke of 37202420 N through 60.47 mm of stock spends 2249630 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "96417738",
+    "18.37"
+   ],
+   "expect": "A stroke of 96417738 N through 18.37 mm of stock spends 1771194 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "25950282",
+    "38.25"
+   ],
+   "expect": "A stroke of 25950282 N through 38.25 mm of stock spends 992598 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "6858486",
+    "45.11"
+   ],
+   "expect": "A stroke of 6858486 N through 45.11 mm of stock spends 309386 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "86304732",
+    "4.41"
+   ],
+   "expect": "A stroke of 86304732 N through 4.41 mm of stock spends 380604 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "32259930",
+    "5.62"
+   ],
+   "expect": "A stroke of 32259930 N through 5.62 mm of stock spends 181301 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "27124461",
+    "20.5"
+   ],
+   "expect": "A stroke of 27124461 N through 20.5 mm of stock spends 556051 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "44433917",
+    "82.59"
+   ],
+   "expect": "A stroke of 44433917 N through 82.59 mm of stock spends 3669797 J by the force-times-thickness estimate."
+  },
+  {
+   "fn": "work",
+   "args": [
+    "20393480",
+    "21"
+   ],
+   "expect": "A stroke of 20393480 N through 21 mm of stock spends 428263 J by the force-times-thickness estimate."
+  }
+ ],
+ "errors": [
+  [
+   "force",
+   [
+    "0",
+    "2",
+    "300"
+   ]
+  ],
+  [
+   "force",
+   [
+    "100",
+    "0",
+    "300"
+   ]
+  ],
+  [
+   "force",
+   [
+    "100",
+    "2",
+    "0"
+   ]
+  ],
+  [
+   "force",
+   [
+    "10000.01",
+    "2",
+    "300"
+   ]
+  ],
+  [
+   "force",
+   [
+    "100",
+    "2",
+    "2000.01"
+   ]
+  ],
+  [
+   "force",
+   [
+    "abc",
+    "2",
+    "300"
+   ]
+  ],
+  [
+   "rect",
+   [
+    "0",
+    "20",
+    "2",
+    "300"
+   ]
+  ],
+  [
+   "rect",
+   [
+    "50",
+    "10000.01",
+    "2",
+    "300"
+   ]
+  ],
+  [
+   "mass",
+   [
+    "0"
+   ]
+  ],
+  [
+   "mass",
+   [
+    "1.5"
+   ]
+  ],
+  [
+   "work",
+   [
+    "60000",
+    "0"
+   ]
+  ],
+  [
+   "work",
+   [
+    "0",
+    "2"
+   ]
+  ]
+ ]
+}
